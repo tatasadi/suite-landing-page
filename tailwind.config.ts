@@ -18,7 +18,15 @@ const config = {
       },
     },
     extend: {
-      colors: {},
+      colors: {
+        dark: "hsl(219, 43%, 16%)",
+        "dark-gray": "hsl(218, 20%, 36%)",
+        creme: "hsl(30, 33%, 93%)",
+        "almost-white": "hsl(30, 29%, 97%)",
+        purple: "hsl(264, 100%, 69%)",
+        pink: "hsl(292, 76%, 54%)",
+        orange: "hsl(31, 100%, 65%)",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
