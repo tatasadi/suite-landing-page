@@ -21,11 +21,15 @@ const config = {
       colors: {
         dark: "hsl(219, 43%, 16%)",
         "dark-gray": "hsl(218, 20%, 36%)",
-        creme: "hsl(30, 33%, 93%)",
-        "almost-white": "hsl(30, 29%, 97%)",
+        cream: "hsl(30, 33%, 93%)",
+        "cream-white": "hsl(30, 29%, 97%)",
         purple: "hsl(264, 100%, 69%)",
         pink: "hsl(292, 76%, 54%)",
         orange: "hsl(31, 100%, 65%)",
+      },
+      backgroundImage: {
+        "purple-orange-gradient":
+          "linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%)",
       },
       keyframes: {
         "accordion-down": {
