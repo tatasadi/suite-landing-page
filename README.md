@@ -14,6 +14,7 @@ This is a solution to the [Suite landing page challenge on Frontend Mentor](http
     - [Built with](#built-with)
     - [Code Quality with](#code-quality-with)
     - [Implementation time](#implementation-time)
+  - [Project Highlights](#project-highlights)
   - [Author](#author)
 
 ## Overview
@@ -56,7 +57,51 @@ Mobile:
 
 ### Implementation time
 
-This challenge was completed over a span of 2 hours.
+This challenge was completed over a span of 3 hours.
+
+## Project Highlights
+
+This project was an excellent opportunity for me to showcase my layout expertise, particularly in stacking various elements in an aesthetically pleasing and responsive manner.
+
+A noteworthy aspect of this endeavor was the optimization of visual elements; I implemented the use of eight distinct image variants for a single visual content. By employing the `picture` element and `next/image`, I allowed the browser to selectively deliver the most suitable image based on the display criteria, ensuring an optimal balance of image quality and performance. For instance:
+
+```html
+<picture>
+  {/* Display the large images for desktops */}
+  <source
+    media="(min-width: 640px)"
+    srcSet="/image-jeremy-large.png 1x, /image-jeremy-large@2x.png 2x"
+    type="image/png"
+  />
+  <source
+    media="(min-width: 640px)"
+    srcSet="/image-jeremy-large.webp 1x, /image-jeremy-large@2x.webp 2x"
+    type="image/webp"
+  />
+
+  {/* Display the small images for mobile */}
+  <source
+    media="(max-width: 639px)"
+    srcSet="/image-jeremy-small.png 1x, /image-jeremy-small@2x.png 2x"
+    type="image/png"
+  />
+  <source
+    media="(max-width: 639px)"
+    srcSet="/image-jeremy-small.webp 1x, /image-jeremy-small@2x.webp 2x"
+    type="image/webp"
+  />
+
+  {/* Fallback image */}
+  <Image
+    src="/image-jeremy-small.png" // Default image
+    alt="Jeremy's Portrait"
+    layout="responsive"
+    width={300}
+    height={500}
+    className="max-h-[25.125rem] lg:max-h-[37.5rem]"
+  />
+</picture>
+```
 
 ## Author
 
