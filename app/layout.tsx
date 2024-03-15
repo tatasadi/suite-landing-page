@@ -26,7 +26,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${epilogue.className} relative flex min-h-screen flex-col items-center`}
+        className={`${epilogue.className} relative flex min-h-screen flex-col items-center bg-cream-white`}
       >
         <Header />
         {children}
