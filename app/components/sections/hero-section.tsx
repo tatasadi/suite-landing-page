@@ -64,7 +64,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="mt-14 flex flex-col items-center gap-8 sm:mt-[5.5rem] sm:flex-row sm:justify-evenly lg:mr-[5rem] lg:mt-10 lg:flex-col lg:justify-center lg:gap-[3.94rem]">
-        <Stats label="Companies" value="2K" />
+        <Stats label="Companies" value="2K+" />
         <Stats label="Languages" value="8" />
         <Stats label="Leads" value="1.2M" />
       </div>

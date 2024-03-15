@@ -6,7 +6,7 @@ const TestimonialSection = () => {
   return (
     <section className="-mb-8 mt-[14.81rem] sm:-mb-[28.94rem] sm:mt-[17.56rem] lg:-mb-[16.5625rem] lg:mt-[15.9rem]">
       <div className="relative flex flex-col justify-center gap-10 rounded-[0.9375rem] bg-dark px-4 pb-16 pt-[21.13rem] text-center text-cream-white sm:px-14 lg:justify-start lg:py-[5.5rem] lg:pl-[39.62rem] lg:pr-[7.81rem] lg:text-left">
-        <div className="absolute -top-40 left-0 flex w-full justify-center lg:bottom-0 lg:left-0 lg:top-auto lg:justify-start">
+        <div className="absolute -top-40 left-0 flex w-full justify-center lg:bottom-0 lg:left-0 lg:top-0 lg:items-center lg:justify-start">
           <Image src={patternBlur} alt="Pattern Blur" />
         </div>
         <div className="absolute -top-[11.31rem] left-0 flex w-full flex-col items-center justify-center gap-10 lg:bottom-0 lg:left-[7.5rem] lg:top-auto lg:flex-row lg:justify-start">
